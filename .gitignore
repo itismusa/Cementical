@@ -1,0 +1,85 @@
+# Dependencies
+node_modules/
+vendor/
+.npm
+package-lock.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build output
+dist/
+build/
+out/
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Debug files
+*.debug
+
+# Compiled Python files
+*.py[cod]
+__pycache__/
+*.so
+
+# Compiled Java files
+*.class
+target/
+*.jar
+
+# Local configuration
+*.local
+config.local.*
+
+# Certificate files
+*.pem
+*.key
+*.crt
+
+# Database files
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.backup
+*~
